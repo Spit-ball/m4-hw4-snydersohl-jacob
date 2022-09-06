@@ -29,12 +29,16 @@ p.para-text {
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /*Use at least one CSS combinator */
 article > .subheader-3,
 article > .subheader-2 {
   font-family: "Courier New", Courier, monospace;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .subheader-2 {
