@@ -1,0 +1,77 @@
+/*Change the background color of at least one element */
+body {
+  background-color: seashell;
+}
+
+/*Change the text color of one or more elements */
+/*Change the font-size of one or more elements */
+#main-title {
+  color: green;
+  font-size: 350%;
+}
+
+/*Center the text of at least one element */
+/*Group any CSS rules if appropriate */
+#main-title,
+.subheader-2 {
+  text-align: center;
+}
+
+/*Center an image element */
+#dax-main-photo {
+  display: flex;
+  justify-content: center;
+}
+
+/*Use at least one combined CSS selector */
+p.para-text {
+  color: green;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/*Use at least one CSS combinator */
+article > .subheader-3,
+article > .subheader-2 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.subheader-2 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+section > .subheader-2,
+article > .subheader-2 {
+  font-style: italic;
+}
+
+nav,
+#bottom-of-page,
+#know-more {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0px;
+  padding-top: 20px;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+#know-more {
+  padding-top: 20px;
+}
+
+#return {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a:hover {
+  font-size: 20px;
+}
